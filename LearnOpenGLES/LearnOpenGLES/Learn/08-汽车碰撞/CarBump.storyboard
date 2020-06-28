@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Car BumpVC-->
+        <scene sceneID="1IL-if-ycL">
+            <objects>
+                <viewController storyboardIdentifier="CarBump" id="dOM-jh-z9l" customClass="CarBumpVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mAZ-Rc-N25" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvB-e8-Agz">
+                                <rect key="frame" x="34" y="71" width="80" height="20"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Tlc-eE-6Yp"/>
+                                    <constraint firstAttribute="width" constant="80" id="Wvc-GZ-b5T"/>
+                                </constraints>
+                                <state key="normal" title="Slow">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSlow:" destination="dOM-jh-z9l" eventType="touchUpInside" id="6VC-cY-mPx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bounce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgw-M3-zsu">
+                                <rect key="frame" x="205" y="71" width="61" height="20"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velocity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cne-Jk-bNz">
+                                <rect key="frame" x="281" y="71" width="61" height="20"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBO-6f-1BL">
+                                <rect key="frame" x="129" y="71" width="61" height="20"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Fast">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onFast:" destination="dOM-jh-z9l" eventType="touchUpInside" id="bLH-Pa-pZr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mgw-M3-zsu" firstAttribute="width" secondItem="UvB-e8-Agz" secondAttribute="width" multiplier="0.7625" id="0gN-Zp-4dN"/>
+                            <constraint firstItem="mgw-M3-zsu" firstAttribute="baseline" secondItem="Cne-Jk-bNz" secondAttribute="baseline" id="3X5-LV-BAl"/>
+                            <constraint firstItem="UvB-e8-Agz" firstAttribute="top" secondItem="LgN-lu-8Dq" secondAttribute="top" constant="27" id="4cS-kg-3mJ"/>
+                            <constraint firstItem="mgw-M3-zsu" firstAttribute="centerY" secondItem="UvB-e8-Agz" secondAttribute="centerY" id="Ao2-iX-FnL"/>
+                            <constraint firstItem="mgw-M3-zsu" firstAttribute="leading" secondItem="aBO-6f-1BL" secondAttribute="trailing" constant="15" id="BAI-FU-jDs"/>
+                            <constraint firstItem="aBO-6f-1BL" firstAttribute="width" secondItem="UvB-e8-Agz" secondAttribute="width" multiplier="0.7625" id="D8z-Rq-Hpg"/>
+                            <constraint firstItem="mgw-M3-zsu" firstAttribute="height" secondItem="UvB-e8-Agz" secondAttribute="height" id="Tfv-fo-Db7"/>
+                            <constraint firstItem="aBO-6f-1BL" firstAttribute="leading" secondItem="UvB-e8-Agz" secondAttribute="trailing" constant="15" id="WLQ-ug-e01"/>
+                            <constraint firstItem="UvB-e8-Agz" firstAttribute="leading" secondItem="LgN-lu-8Dq" secondAttribute="leading" constant="34" id="j9S-2a-4Cb"/>
+                            <constraint firstItem="aBO-6f-1BL" firstAttribute="centerY" secondItem="UvB-e8-Agz" secondAttribute="centerY" id="o7J-H3-pqh"/>
+                            <constraint firstItem="aBO-6f-1BL" firstAttribute="height" secondItem="UvB-e8-Agz" secondAttribute="height" id="rQo-gy-Fen"/>
+                            <constraint firstItem="Cne-Jk-bNz" firstAttribute="leading" secondItem="mgw-M3-zsu" secondAttribute="trailing" constant="15" id="sHZ-px-cB1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LgN-lu-8Dq"/>
+                    </view>
+                    <connections>
+                        <outlet property="myBounceLabel" destination="mgw-M3-zsu" id="q2J-K4-EsN"/>
+                        <outlet property="myVelocityLabel" destination="Cne-Jk-bNz" id="6zf-hK-ExL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UgI-a6-JMI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="3"/>
+        </scene>
+    </scenes>
+</document>

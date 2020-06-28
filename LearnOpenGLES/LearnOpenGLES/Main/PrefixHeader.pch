@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  LearnOpenGLES
+//
+//  Created by Alan Ge on 2020/6/16.
+//  Copyright © 2020 AlanGe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ScreenAdaptation.h"
+#import "Config.h"
+
+#endif /* PrefixHeader_pch */

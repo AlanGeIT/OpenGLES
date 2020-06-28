@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Particle SystemVC-->
+        <scene sceneID="EdZ-KS-BBo">
+            <objects>
+                <viewController storyboardIdentifier="ParticleSystem" id="bw4-VD-GbT" customClass="ParticleSystemVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LCk-3o-YHY" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lTr-xR-sMa">
+                                <rect key="frame" x="20" y="54" width="111" height="32"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                </segments>
+                                <connections>
+                                    <action selector="ChangeIndex:" destination="bw4-VD-GbT" eventType="valueChanged" id="LS3-7I-dJM"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lTr-xR-sMa" firstAttribute="top" secondItem="7gX-f6-8Nt" secondAttribute="top" constant="10" id="SuW-af-jPd"/>
+                            <constraint firstItem="lTr-xR-sMa" firstAttribute="leading" secondItem="7gX-f6-8Nt" secondAttribute="leading" constant="20" id="kKQ-rI-RY2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7gX-f6-8Nt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="91I-sk-5Bn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130" y="130"/>
+        </scene>
+    </scenes>
+</document>

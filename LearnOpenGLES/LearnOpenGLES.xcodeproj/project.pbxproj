@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F21D3C32499A2B500E4FB2F /* sceneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3C22499A2B500E4FB2F /* sceneUtil.m */; };
+		8F21D3C7249A1AFD00E4FB2F /* CarBumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3C6249A1AFD00E4FB2F /* CarBumpVC.m */; };
+		8F21D3C9249A1B6600E4FB2F /* CarBump.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F21D3C8249A1B6600E4FB2F /* CarBump.storyboard */; };
+		8F21D3CD249A1C8800E4FB2F /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3CC249A1C8800E4FB2F /* SceneMesh.m */; };
+		8F21D3D0249A1CAE00E4FB2F /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3CF249A1CAE00E4FB2F /* SceneModel.m */; };
+		8F21D3D3249A1CCF00E4FB2F /* SceneCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3D2249A1CCF00E4FB2F /* SceneCarModel.m */; };
+		8F21D3D6249A1CF900E4FB2F /* SceneRinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3D5249A1CF900E4FB2F /* SceneRinkModel.m */; };
+		8F21D3D9249A1D1500E4FB2F /* SceneCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F21D3D8249A1D1500E4FB2F /* SceneCar.m */; };
+		8F2F66752498C63600960AE7 /* cTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66742498C63600960AE7 /* cTest.jpg */; };
+		8F2F66792498C71A00960AE7 /* UserShaderLoadImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66782498C71A00960AE7 /* UserShaderLoadImageVC.m */; };
+		8F2F667D2498C7BC00960AE7 /* UserShaderLoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F667C2498C7BC00960AE7 /* UserShaderLoadImageView.m */; };
+		8F2F66802498C84400960AE7 /* USLImgShaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F667E2498C84400960AE7 /* USLImgShaderf.fsh */; };
+		8F2F66812498C84400960AE7 /* USLImgShaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F667F2498C84400960AE7 /* USLImgShaderv.vsh */; };
+		8F2F66862498CB6E00960AE7 /* GLSLTriangleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66852498CB6E00960AE7 /* GLSLTriangleVC.m */; };
+		8F2F668E2498CCB400960AE7 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66882498CCB400960AE7 /* GLESUtils.m */; };
+		8F2F668F2498CCB400960AE7 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F668A2498CCB400960AE7 /* GLESMath.c */; };
+		8F2F66932498CCD200960AE7 /* GLSLTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66922498CCD200960AE7 /* GLSLTriangleView.m */; };
+		8F2F66952498CD5500960AE7 /* GLSLTriangleShaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66942498CD5500960AE7 /* GLSLTriangleShaderv.glsl */; };
+		8F2F66972498CD7000960AE7 /* GLSLTriangleShaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66962498CD7000960AE7 /* GLSLTriangleShaderf.glsl */; };
+		8F2F669C2498D33100960AE7 /* GlkitPyramidVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F669B2498D33100960AE7 /* GlkitPyramidVC.m */; };
+		8F2F66A02498D34B00960AE7 /* GlkitPyramidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F669F2498D34B00960AE7 /* GlkitPyramidView.m */; };
+		8F2F66A22498D40F00960AE7 /* GlkitPyramidView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66A12498D40F00960AE7 /* GlkitPyramidView.jpg */; };
+		8F2F66A42498D7DF00960AE7 /* GlkitPyramid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66A32498D7DF00960AE7 /* GlkitPyramid.storyboard */; };
+		8F2F66A72498D9BD00960AE7 /* DrawingBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66A62498D9BD00960AE7 /* DrawingBoardVC.m */; };
+		8F2F66AB2498DAAF00960AE7 /* point.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66A92498DAAF00960AE7 /* point.vsh */; };
+		8F2F66AC2498DAAF00960AE7 /* point.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66AA2498DAAF00960AE7 /* point.fsh */; };
+		8F2F66B72498DABC00960AE7 /* abc.string in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66AF2498DABC00960AE7 /* abc.string */; };
+		8F2F66B82498DABC00960AE7 /* CC.string in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66B22498DABC00960AE7 /* CC.string */; };
+		8F2F66B92498DABC00960AE7 /* Erase.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66B32498DABC00960AE7 /* Erase.caf */; };
+		8F2F66BA2498DABC00960AE7 /* Select.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66B42498DABC00960AE7 /* Select.caf */; };
+		8F2F66BB2498DABC00960AE7 /* fileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66B52498DABC00960AE7 /* fileUtil.m */; };
+		8F2F66BC2498DABC00960AE7 /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66B62498DABC00960AE7 /* shaderUtil.c */; };
+		8F2F66BE2498DACE00960AE7 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66BD2498DACE00960AE7 /* Particle.png */; };
+		8F2F66C12498DB5300960AE7 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66C02498DB5300960AE7 /* PaintView.m */; };
+		8F2F66C42498DB9400960AE7 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66C32498DB9400960AE7 /* SoundEffect.m */; };
+		8F2F66C62498DC2C00960AE7 /* DrawingBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66C52498DC2C00960AE7 /* DrawingBoard.storyboard */; };
+		8F2F66CC2498DDD200960AE7 /* EarthAndMoon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66CB2498DDD200960AE7 /* EarthAndMoon.storyboard */; };
+		8F2F66CF2498DE1A00960AE7 /* EarthAndMoonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66CE2498DE1A00960AE7 /* EarthAndMoonVC.m */; };
+		8F2F66D52498DF0100960AE7 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66D12498DF0100960AE7 /* Earth512x256.jpg */; };
+		8F2F66D62498DF0100960AE7 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66D32498DF0100960AE7 /* sphere.obj */; };
+		8F2F66D72498DF0100960AE7 /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66D42498DF0100960AE7 /* Moon256x128.png */; };
+		8F2F66DB2498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66D92498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.m */; };
+		8F2F66DF249904DB00960AE7 /* LightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F66DE249904DB00960AE7 /* LightVC.m */; };
+		8F2F66E1249904F200960AE7 /* Light.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F66E0249904F200960AE7 /* Light.storyboard */; };
+		8F9850182498BF9000224487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9850172498BF9000224487 /* AppDelegate.m */; };
+		8F98501E2498BF9000224487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F98501D2498BF9000224487 /* ViewController.m */; };
+		8F9850212498BF9000224487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F98501F2498BF9000224487 /* Main.storyboard */; };
+		8F9850232498BF9100224487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9850222498BF9100224487 /* Assets.xcassets */; };
+		8F9850262498BF9100224487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9850242498BF9100224487 /* LaunchScreen.storyboard */; };
+		8F9850292498BF9100224487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9850282498BF9100224487 /* main.m */; };
+		8F98503B2498C35D00224487 /* LoadImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F98503A2498C35D00224487 /* LoadImageVC.m */; };
+		8FAE2CED249E57AE001B361E /* ParticleSystem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE2CEC249E57AE001B361E /* ParticleSystem.storyboard */; };
+		8FAE2D7D249E5F83001B361E /* ParticleSystemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE2D7C249E5F83001B361E /* ParticleSystemVC.m */; };
+		8FAE2D80249E6017001B361E /* PointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE2D7F249E6017001B361E /* PointParticleEffect.m */; };
+		8FAE2D83249E603B001B361E /* VertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE2D82249E603B001B361E /* VertexAttribArrayBuffer.m */; };
+		8FAE2D86249E605D001B361E /* PointParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE2D84249E605D001B361E /* PointParticleShader.fsh */; };
+		8FAE2D87249E605D001B361E /* PointParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE2D85249E605D001B361E /* PointParticleShader.vsh */; };
+		8FAE2D89249E606E001B361E /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE2D88249E606E001B361E /* ball.png */; };
+		8FC49BBE249B510600EB71B5 /* SkyBoxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC49BBD249B510600EB71B5 /* SkyBoxVC.m */; };
+		8FC49BC0249B516B00EB71B5 /* SkyBox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BBF249B516B00EB71B5 /* SkyBox.storyboard */; };
+		8FC49BC5249B521F00EB71B5 /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BC2249B521F00EB71B5 /* skybox1.png */; };
+		8FC49BC6249B521F00EB71B5 /* skybox3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BC3249B521F00EB71B5 /* skybox3.png */; };
+		8FC49BC7249B521F00EB71B5 /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BC4249B521F00EB71B5 /* skybox2.png */; };
+		8FC49BCB249B524B00EB71B5 /* starship.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FC49BCA249B524B00EB71B5 /* starship.c */; };
+		8FC49BCE249B52BB00EB71B5 /* SkyBoxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC49BCD249B52BB00EB71B5 /* SkyBoxEffect.m */; };
+		8FC49BD0249B537200EB71B5 /* SkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BCF249B537200EB71B5 /* SkyboxShader.vsh */; };
+		8FC49BD2249B539A00EB71B5 /* SkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8FC49BD1249B539A00EB71B5 /* SkyboxShader.fsh */; };
+		8FC49BD9249CC14600EB71B5 /* MakeSkyBoxImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC49BD8249CC14600EB71B5 /* MakeSkyBoxImageVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F21D3C12499A2B500E4FB2F /* sceneUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sceneUtil.h; sourceTree = "<group>"; };
+		8F21D3C22499A2B500E4FB2F /* sceneUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sceneUtil.m; sourceTree = "<group>"; };
+		8F21D3C5249A1AFD00E4FB2F /* CarBumpVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBumpVC.h; sourceTree = "<group>"; };
+		8F21D3C6249A1AFD00E4FB2F /* CarBumpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarBumpVC.m; sourceTree = "<group>"; };
+		8F21D3C8249A1B6600E4FB2F /* CarBump.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarBump.storyboard; sourceTree = "<group>"; };
+		8F21D3CB249A1C8800E4FB2F /* SceneMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneMesh.h; sourceTree = "<group>"; };
+		8F21D3CC249A1C8800E4FB2F /* SceneMesh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneMesh.m; sourceTree = "<group>"; };
+		8F21D3CE249A1CAE00E4FB2F /* SceneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneModel.h; sourceTree = "<group>"; };
+		8F21D3CF249A1CAE00E4FB2F /* SceneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneModel.m; sourceTree = "<group>"; };
+		8F21D3D1249A1CCF00E4FB2F /* SceneCarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCarModel.h; sourceTree = "<group>"; };
+		8F21D3D2249A1CCF00E4FB2F /* SceneCarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneCarModel.m; sourceTree = "<group>"; };
+		8F21D3D4249A1CF900E4FB2F /* SceneRinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneRinkModel.h; sourceTree = "<group>"; };
+		8F21D3D5249A1CF900E4FB2F /* SceneRinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneRinkModel.m; sourceTree = "<group>"; };
+		8F21D3D7249A1D1500E4FB2F /* SceneCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCar.h; sourceTree = "<group>"; };
+		8F21D3D8249A1D1500E4FB2F /* SceneCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneCar.m; sourceTree = "<group>"; };
+		8F21D3DB249A1D4700E4FB2F /* bumperCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bumperCar.h; sourceTree = "<group>"; };
+		8F21D3DE249A1D7A00E4FB2F /* bumperRink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bumperRink.h; sourceTree = "<group>"; };
+		8F2F66742498C63600960AE7 /* cTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cTest.jpg; sourceTree = "<group>"; };
+		8F2F66772498C71A00960AE7 /* UserShaderLoadImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserShaderLoadImageVC.h; sourceTree = "<group>"; };
+		8F2F66782498C71A00960AE7 /* UserShaderLoadImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserShaderLoadImageVC.m; sourceTree = "<group>"; };
+		8F2F667B2498C7BC00960AE7 /* UserShaderLoadImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserShaderLoadImageView.h; sourceTree = "<group>"; };
+		8F2F667C2498C7BC00960AE7 /* UserShaderLoadImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserShaderLoadImageView.m; sourceTree = "<group>"; };
+		8F2F667E2498C84400960AE7 /* USLImgShaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = USLImgShaderf.fsh; sourceTree = "<group>"; };
+		8F2F667F2498C84400960AE7 /* USLImgShaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = USLImgShaderv.vsh; sourceTree = "<group>"; };
+		8F2F66842498CB6E00960AE7 /* GLSLTriangleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSLTriangleVC.h; sourceTree = "<group>"; };
+		8F2F66852498CB6E00960AE7 /* GLSLTriangleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSLTriangleVC.m; sourceTree = "<group>"; };
+		8F2F66882498CCB400960AE7 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		8F2F66892498CCB400960AE7 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		8F2F668A2498CCB400960AE7 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		8F2F668B2498CCB400960AE7 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		8F2F668C2498CCB400960AE7 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		8F2F668D2498CCB400960AE7 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		8F2F66912498CCD200960AE7 /* GLSLTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSLTriangleView.h; sourceTree = "<group>"; };
+		8F2F66922498CCD200960AE7 /* GLSLTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSLTriangleView.m; sourceTree = "<group>"; };
+		8F2F66942498CD5500960AE7 /* GLSLTriangleShaderv.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLSLTriangleShaderv.glsl; sourceTree = "<group>"; };
+		8F2F66962498CD7000960AE7 /* GLSLTriangleShaderf.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLSLTriangleShaderf.glsl; sourceTree = "<group>"; };
+		8F2F669A2498D33100960AE7 /* GlkitPyramidVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlkitPyramidVC.h; sourceTree = "<group>"; };
+		8F2F669B2498D33100960AE7 /* GlkitPyramidVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlkitPyramidVC.m; sourceTree = "<group>"; };
+		8F2F669E2498D34B00960AE7 /* GlkitPyramidView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlkitPyramidView.h; sourceTree = "<group>"; };
+		8F2F669F2498D34B00960AE7 /* GlkitPyramidView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlkitPyramidView.m; sourceTree = "<group>"; };
+		8F2F66A12498D40F00960AE7 /* GlkitPyramidView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlkitPyramidView.jpg; sourceTree = "<group>"; };
+		8F2F66A32498D7DF00960AE7 /* GlkitPyramid.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlkitPyramid.storyboard; sourceTree = "<group>"; };
+		8F2F66A52498D9BD00960AE7 /* DrawingBoardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingBoardVC.h; sourceTree = "<group>"; };
+		8F2F66A62498D9BD00960AE7 /* DrawingBoardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardVC.m; sourceTree = "<group>"; };
+		8F2F66A92498DAAF00960AE7 /* point.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.vsh; sourceTree = "<group>"; };
+		8F2F66AA2498DAAF00960AE7 /* point.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.fsh; sourceTree = "<group>"; };
+		8F2F66AE2498DABC00960AE7 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		8F2F66AF2498DABC00960AE7 /* abc.string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abc.string; sourceTree = "<group>"; };
+		8F2F66B02498DABC00960AE7 /* fileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileUtil.h; sourceTree = "<group>"; };
+		8F2F66B12498DABC00960AE7 /* shaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderUtil.h; sourceTree = "<group>"; };
+		8F2F66B22498DABC00960AE7 /* CC.string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CC.string; sourceTree = "<group>"; };
+		8F2F66B32498DABC00960AE7 /* Erase.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Erase.caf; sourceTree = "<group>"; };
+		8F2F66B42498DABC00960AE7 /* Select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Select.caf; sourceTree = "<group>"; };
+		8F2F66B52498DABC00960AE7 /* fileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileUtil.m; sourceTree = "<group>"; };
+		8F2F66B62498DABC00960AE7 /* shaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shaderUtil.c; sourceTree = "<group>"; };
+		8F2F66BD2498DACE00960AE7 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		8F2F66BF2498DB5300960AE7 /* PaintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		8F2F66C02498DB5300960AE7 /* PaintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		8F2F66C22498DB9400960AE7 /* SoundEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		8F2F66C32498DB9400960AE7 /* SoundEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		8F2F66C52498DC2C00960AE7 /* DrawingBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DrawingBoard.storyboard; sourceTree = "<group>"; };
+		8F2F66CB2498DDD200960AE7 /* EarthAndMoon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EarthAndMoon.storyboard; sourceTree = "<group>"; };
+		8F2F66CD2498DE1A00960AE7 /* EarthAndMoonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthAndMoonVC.h; sourceTree = "<group>"; };
+		8F2F66CE2498DE1A00960AE7 /* EarthAndMoonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAndMoonVC.m; sourceTree = "<group>"; };
+		8F2F66D12498DF0100960AE7 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		8F2F66D22498DF0100960AE7 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		8F2F66D32498DF0100960AE7 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		8F2F66D42498DF0100960AE7 /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon256x128.png; sourceTree = "<group>"; };
+		8F2F66D92498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		8F2F66DA2498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		8F2F66DD249904DB00960AE7 /* LightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightVC.h; sourceTree = "<group>"; };
+		8F2F66DE249904DB00960AE7 /* LightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightVC.m; sourceTree = "<group>"; };
+		8F2F66E0249904F200960AE7 /* Light.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Light.storyboard; sourceTree = "<group>"; };
+		8F9850132498BF9000224487 /* LearnOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9850162498BF9000224487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F9850172498BF9000224487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F98501C2498BF9000224487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F98501D2498BF9000224487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F9850202498BF9000224487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9850222498BF9100224487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9850252498BF9100224487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9850272498BF9100224487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9850282498BF9100224487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F9850302498C03F00224487 /* ScreenAdaptation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
+		8F9850312498C08800224487 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		8F9850322498C0B800224487 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8F9850392498C35D00224487 /* LoadImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadImageVC.h; sourceTree = "<group>"; };
+		8F98503A2498C35D00224487 /* LoadImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadImageVC.m; sourceTree = "<group>"; };
+		8FAE2CEC249E57AE001B361E /* ParticleSystem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParticleSystem.storyboard; sourceTree = "<group>"; };
+		8FAE2D7B249E5F83001B361E /* ParticleSystemVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleSystemVC.h; sourceTree = "<group>"; };
+		8FAE2D7C249E5F83001B361E /* ParticleSystemVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleSystemVC.m; sourceTree = "<group>"; };
+		8FAE2D7E249E6017001B361E /* PointParticleEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointParticleEffect.h; sourceTree = "<group>"; };
+		8FAE2D7F249E6017001B361E /* PointParticleEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointParticleEffect.m; sourceTree = "<group>"; };
+		8FAE2D81249E603B001B361E /* VertexAttribArrayBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		8FAE2D82249E603B001B361E /* VertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		8FAE2D84249E605D001B361E /* PointParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointParticleShader.fsh; sourceTree = "<group>"; };
+		8FAE2D85249E605D001B361E /* PointParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointParticleShader.vsh; sourceTree = "<group>"; };
+		8FAE2D88249E606E001B361E /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		8FC49BBC249B510600EB71B5 /* SkyBoxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyBoxVC.h; sourceTree = "<group>"; };
+		8FC49BBD249B510600EB71B5 /* SkyBoxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyBoxVC.m; sourceTree = "<group>"; };
+		8FC49BBF249B516B00EB71B5 /* SkyBox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SkyBox.storyboard; sourceTree = "<group>"; };
+		8FC49BC2249B521F00EB71B5 /* skybox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1.png; sourceTree = "<group>"; };
+		8FC49BC3249B521F00EB71B5 /* skybox3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox3.png; sourceTree = "<group>"; };
+		8FC49BC4249B521F00EB71B5 /* skybox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2.png; sourceTree = "<group>"; };
+		8FC49BC9249B524B00EB71B5 /* starship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starship.h; sourceTree = "<group>"; };
+		8FC49BCA249B524B00EB71B5 /* starship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = starship.c; sourceTree = "<group>"; };
+		8FC49BCC249B52BB00EB71B5 /* SkyBoxEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyBoxEffect.h; sourceTree = "<group>"; };
+		8FC49BCD249B52BB00EB71B5 /* SkyBoxEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyBoxEffect.m; sourceTree = "<group>"; };
+		8FC49BCF249B537200EB71B5 /* SkyboxShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SkyboxShader.vsh; sourceTree = "<group>"; };
+		8FC49BD1249B539A00EB71B5 /* SkyboxShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SkyboxShader.fsh; sourceTree = "<group>"; };
+		8FC49BD7249CC14600EB71B5 /* MakeSkyBoxImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeSkyBoxImageVC.h; sourceTree = "<group>"; };
+		8FC49BD8249CC14600EB71B5 /* MakeSkyBoxImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeSkyBoxImageVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9850102498BF9000224487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F21D3C02499A0DE00E4FB2F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8F21D3C12499A2B500E4FB2F /* sceneUtil.h */,
+				8F21D3C22499A2B500E4FB2F /* sceneUtil.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8F21D3C42499B89200E4FB2F /* 08-汽车碰撞 */ = {
+			isa = PBXGroup;
+			children = (
+				8F21D3C5249A1AFD00E4FB2F /* CarBumpVC.h */,
+				8F21D3C6249A1AFD00E4FB2F /* CarBumpVC.m */,
+				8F21D3CA249A1C7200E4FB2F /* base */,
+				8F21D3DA249A1D3800E4FB2F /* Car */,
+				8F21D3C8249A1B6600E4FB2F /* CarBump.storyboard */,
+			);
+			path = "08-汽车碰撞";
+			sourceTree = "<group>";
+		};
+		8F21D3CA249A1C7200E4FB2F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				8F21D3CB249A1C8800E4FB2F /* SceneMesh.h */,
+				8F21D3CC249A1C8800E4FB2F /* SceneMesh.m */,
+				8F21D3CE249A1CAE00E4FB2F /* SceneModel.h */,
+				8F21D3CF249A1CAE00E4FB2F /* SceneModel.m */,
+				8F21D3D1249A1CCF00E4FB2F /* SceneCarModel.h */,
+				8F21D3D2249A1CCF00E4FB2F /* SceneCarModel.m */,
+				8F21D3D4249A1CF900E4FB2F /* SceneRinkModel.h */,
+				8F21D3D5249A1CF900E4FB2F /* SceneRinkModel.m */,
+				8F21D3D7249A1D1500E4FB2F /* SceneCar.h */,
+				8F21D3D8249A1D1500E4FB2F /* SceneCar.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		8F21D3DA249A1D3800E4FB2F /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				8F21D3DB249A1D4700E4FB2F /* bumperCar.h */,
+				8F21D3DE249A1D7A00E4FB2F /* bumperRink.h */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		8F2F66762498C6E500960AE7 /* 02-使用着色器加载图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66772498C71A00960AE7 /* UserShaderLoadImageVC.h */,
+				8F2F66782498C71A00960AE7 /* UserShaderLoadImageVC.m */,
+				8F2F667A2498C79400960AE7 /* View */,
+			);
+			path = "02-使用着色器加载图片";
+			sourceTree = "<group>";
+		};
+		8F2F667A2498C79400960AE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F667B2498C7BC00960AE7 /* UserShaderLoadImageView.h */,
+				8F2F667C2498C7BC00960AE7 /* UserShaderLoadImageView.m */,
+				8F2F667F2498C84400960AE7 /* USLImgShaderv.vsh */,
+				8F2F667E2498C84400960AE7 /* USLImgShaderf.fsh */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F2F66832498CB3B00960AE7 /* 03-GLSL三角形 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66842498CB6E00960AE7 /* GLSLTriangleVC.h */,
+				8F2F66852498CB6E00960AE7 /* GLSLTriangleVC.m */,
+				8F2F66902498CCB700960AE7 /* View */,
+				8F2F66872498CCB400960AE7 /* Utils */,
+			);
+			path = "03-GLSL三角形";
+			sourceTree = "<group>";
+		};
+		8F2F66872498CCB400960AE7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66882498CCB400960AE7 /* GLESUtils.m */,
+				8F2F66892498CCB400960AE7 /* Quaternion.h */,
+				8F2F668A2498CCB400960AE7 /* GLESMath.c */,
+				8F2F668B2498CCB400960AE7 /* GLESUtils.h */,
+				8F2F668C2498CCB400960AE7 /* Vector.h */,
+				8F2F668D2498CCB400960AE7 /* GLESMath.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F2F66902498CCB700960AE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66912498CCD200960AE7 /* GLSLTriangleView.h */,
+				8F2F66922498CCD200960AE7 /* GLSLTriangleView.m */,
+				8F2F66942498CD5500960AE7 /* GLSLTriangleShaderv.glsl */,
+				8F2F66962498CD7000960AE7 /* GLSLTriangleShaderf.glsl */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F2F66982498D04700960AE7 /* 04-GLKit金字塔 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F669A2498D33100960AE7 /* GlkitPyramidVC.h */,
+				8F2F669B2498D33100960AE7 /* GlkitPyramidVC.m */,
+				8F2F669D2498D33600960AE7 /* GlkitPyramidView */,
+				8F2F66A32498D7DF00960AE7 /* GlkitPyramid.storyboard */,
+			);
+			path = "04-GLKit金字塔";
+			sourceTree = "<group>";
+		};
+		8F2F66992498D30A00960AE7 /* 05-OpenGLES画板 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66A52498D9BD00960AE7 /* DrawingBoardVC.h */,
+				8F2F66A62498D9BD00960AE7 /* DrawingBoardVC.m */,
+				8F2F66BF2498DB5300960AE7 /* PaintView.h */,
+				8F2F66C02498DB5300960AE7 /* PaintView.m */,
+				8F2F66C22498DB9400960AE7 /* SoundEffect.h */,
+				8F2F66C32498DB9400960AE7 /* SoundEffect.m */,
+				8F2F66C52498DC2C00960AE7 /* DrawingBoard.storyboard */,
+				8F2F66AD2498DABC00960AE7 /* CCSytemVoice */,
+				8F2F66A82498DAAF00960AE7 /* shader */,
+			);
+			path = "05-OpenGLES画板";
+			sourceTree = "<group>";
+		};
+		8F2F669D2498D33600960AE7 /* GlkitPyramidView */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F669E2498D34B00960AE7 /* GlkitPyramidView.h */,
+				8F2F669F2498D34B00960AE7 /* GlkitPyramidView.m */,
+			);
+			path = GlkitPyramidView;
+			sourceTree = "<group>";
+		};
+		8F2F66A82498DAAF00960AE7 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66A92498DAAF00960AE7 /* point.vsh */,
+				8F2F66AA2498DAAF00960AE7 /* point.fsh */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
+		8F2F66AD2498DABC00960AE7 /* CCSytemVoice */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66AE2498DABC00960AE7 /* debug.h */,
+				8F2F66AF2498DABC00960AE7 /* abc.string */,
+				8F2F66B02498DABC00960AE7 /* fileUtil.h */,
+				8F2F66B12498DABC00960AE7 /* shaderUtil.h */,
+				8F2F66B22498DABC00960AE7 /* CC.string */,
+				8F2F66B32498DABC00960AE7 /* Erase.caf */,
+				8F2F66B42498DABC00960AE7 /* Select.caf */,
+				8F2F66B52498DABC00960AE7 /* fileUtil.m */,
+				8F2F66B62498DABC00960AE7 /* shaderUtil.c */,
+			);
+			path = CCSytemVoice;
+			sourceTree = "<group>";
+		};
+		8F2F66C72498DD5E00960AE7 /* 06-地球月亮渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66CD2498DE1A00960AE7 /* EarthAndMoonVC.h */,
+				8F2F66CE2498DE1A00960AE7 /* EarthAndMoonVC.m */,
+				8F2F66D02498DF0100960AE7 /* 资源 */,
+				8F2F66CB2498DDD200960AE7 /* EarthAndMoon.storyboard */,
+			);
+			path = "06-地球月亮渲染";
+			sourceTree = "<group>";
+		};
+		8F2F66D02498DF0100960AE7 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66D12498DF0100960AE7 /* Earth512x256.jpg */,
+				8F2F66D42498DF0100960AE7 /* Moon256x128.png */,
+				8F2F66D22498DF0100960AE7 /* sphere.h */,
+				8F2F66D32498DF0100960AE7 /* sphere.obj */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		8F2F66D82498DF0D00960AE7 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66DA2498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.h */,
+				8F2F66D92498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		8F2F66DC249904AF00960AE7 /* 07-光照 */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66DD249904DB00960AE7 /* LightVC.h */,
+				8F2F66DE249904DB00960AE7 /* LightVC.m */,
+				8F21D3C02499A0DE00E4FB2F /* Tool */,
+				8F2F66E0249904F200960AE7 /* Light.storyboard */,
+			);
+			path = "07-光照";
+			sourceTree = "<group>";
+		};
+		8F98500A2498BF9000224487 = {
+			isa = PBXGroup;
+			children = (
+				8F9850152498BF9000224487 /* LearnOpenGLES */,
+				8F9850142498BF9000224487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9850142498BF9000224487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9850132498BF9000224487 /* LearnOpenGLES.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9850152498BF9000224487 /* LearnOpenGLES */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F66D82498DF0D00960AE7 /* Kit */,
+				8F9850342498C1E800224487 /* Main */,
+				8F98502F2498C02900224487 /* Const */,
+				8F9850362498C2D100224487 /* Base */,
+				8F9850372498C31E00224487 /* Learn */,
+				8F9850352498C23200224487 /* Other */,
+				8F9850332498C1CA00224487 /* Supporting Files */,
+			);
+			path = LearnOpenGLES;
+			sourceTree = "<group>";
+		};
+		8F98502F2498C02900224487 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				8F9850302498C03F00224487 /* ScreenAdaptation.h */,
+				8F9850312498C08800224487 /* Config.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		8F9850332498C1CA00224487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE2D88249E606E001B361E /* ball.png */,
+				8F2F66BD2498DACE00960AE7 /* Particle.png */,
+				8F2F66742498C63600960AE7 /* cTest.jpg */,
+				8F2F66A12498D40F00960AE7 /* GlkitPyramidView.jpg */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F9850342498C1E800224487 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F9850162498BF9000224487 /* AppDelegate.h */,
+				8F9850172498BF9000224487 /* AppDelegate.m */,
+				8F9850322498C0B800224487 /* PrefixHeader.pch */,
+				8F9850282498BF9100224487 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F9850352498C23200224487 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8F98501F2498BF9000224487 /* Main.storyboard */,
+				8F9850222498BF9100224487 /* Assets.xcassets */,
+				8F9850242498BF9100224487 /* LaunchScreen.storyboard */,
+				8F9850272498BF9100224487 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8F9850362498C2D100224487 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8F98501C2498BF9000224487 /* ViewController.h */,
+				8F98501D2498BF9000224487 /* ViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8F9850372498C31E00224487 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				8F9850382498C32E00224487 /* 01-使用OpenGLES加载图片 */,
+				8F2F66762498C6E500960AE7 /* 02-使用着色器加载图片 */,
+				8F2F66832498CB3B00960AE7 /* 03-GLSL三角形 */,
+				8F2F66982498D04700960AE7 /* 04-GLKit金字塔 */,
+				8F2F66992498D30A00960AE7 /* 05-OpenGLES画板 */,
+				8F2F66C72498DD5E00960AE7 /* 06-地球月亮渲染 */,
+				8F2F66DC249904AF00960AE7 /* 07-光照 */,
+				8F21D3C42499B89200E4FB2F /* 08-汽车碰撞 */,
+				8FC49BD3249CC08700EB71B5 /* 9-MakeSkyBoxImage */,
+				8FC49BBB249B50B000EB71B5 /* 10-天空盒子 */,
+				8FAE2CE5249E568F001B361E /* 11-粒子系统 */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		8F9850382498C32E00224487 /* 01-使用OpenGLES加载图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9850392498C35D00224487 /* LoadImageVC.h */,
+				8F98503A2498C35D00224487 /* LoadImageVC.m */,
+			);
+			path = "01-使用OpenGLES加载图片";
+			sourceTree = "<group>";
+		};
+		8FAE2CE5249E568F001B361E /* 11-粒子系统 */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE2CEC249E57AE001B361E /* ParticleSystem.storyboard */,
+				8FAE2D7B249E5F83001B361E /* ParticleSystemVC.h */,
+				8FAE2D7C249E5F83001B361E /* ParticleSystemVC.m */,
+				8FAE2D7E249E6017001B361E /* PointParticleEffect.h */,
+				8FAE2D7F249E6017001B361E /* PointParticleEffect.m */,
+				8FAE2D81249E603B001B361E /* VertexAttribArrayBuffer.h */,
+				8FAE2D82249E603B001B361E /* VertexAttribArrayBuffer.m */,
+				8FAE2D84249E605D001B361E /* PointParticleShader.fsh */,
+				8FAE2D85249E605D001B361E /* PointParticleShader.vsh */,
+			);
+			path = "11-粒子系统";
+			sourceTree = "<group>";
+		};
+		8FC49BBB249B50B000EB71B5 /* 10-天空盒子 */ = {
+			isa = PBXGroup;
+			children = (
+				8FC49BBC249B510600EB71B5 /* SkyBoxVC.h */,
+				8FC49BBD249B510600EB71B5 /* SkyBoxVC.m */,
+				8FC49BCC249B52BB00EB71B5 /* SkyBoxEffect.h */,
+				8FC49BCD249B52BB00EB71B5 /* SkyBoxEffect.m */,
+				8FC49BCF249B537200EB71B5 /* SkyboxShader.vsh */,
+				8FC49BD1249B539A00EB71B5 /* SkyboxShader.fsh */,
+				8FC49BC8249B523E00EB71B5 /* kit */,
+				8FC49BC1249B520D00EB71B5 /* Sky */,
+				8FC49BBF249B516B00EB71B5 /* SkyBox.storyboard */,
+			);
+			path = "10-天空盒子";
+			sourceTree = "<group>";
+		};
+		8FC49BC1249B520D00EB71B5 /* Sky */ = {
+			isa = PBXGroup;
+			children = (
+				8FC49BC2249B521F00EB71B5 /* skybox1.png */,
+				8FC49BC4249B521F00EB71B5 /* skybox2.png */,
+				8FC49BC3249B521F00EB71B5 /* skybox3.png */,
+			);
+			path = Sky;
+			sourceTree = "<group>";
+		};
+		8FC49BC8249B523E00EB71B5 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				8FC49BCA249B524B00EB71B5 /* starship.c */,
+				8FC49BC9249B524B00EB71B5 /* starship.h */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		8FC49BD3249CC08700EB71B5 /* 9-MakeSkyBoxImage */ = {
+			isa = PBXGroup;
+			children = (
+				8FC49BD7249CC14600EB71B5 /* MakeSkyBoxImageVC.h */,
+				8FC49BD8249CC14600EB71B5 /* MakeSkyBoxImageVC.m */,
+			);
+			path = "9-MakeSkyBoxImage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9850122498BF9000224487 /* LearnOpenGLES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F98502C2498BF9100224487 /* Build configuration list for PBXNativeTarget "LearnOpenGLES" */;
+			buildPhases = (
+				8F98500F2498BF9000224487 /* Sources */,
+				8F9850102498BF9000224487 /* Frameworks */,
+				8F9850112498BF9000224487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnOpenGLES;
+			productName = LearnOpenGLES;
+			productReference = 8F9850132498BF9000224487 /* LearnOpenGLES.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F98500B2498BF9000224487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AlanGe;
+				TargetAttributes = {
+					8F9850122498BF9000224487 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F98500E2498BF9000224487 /* Build configuration list for PBXProject "LearnOpenGLES" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F98500A2498BF9000224487;
+			productRefGroup = 8F9850142498BF9000224487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9850122498BF9000224487 /* LearnOpenGLES */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9850112498BF9000224487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2F66B72498DABC00960AE7 /* abc.string in Resources */,
+				8F2F66952498CD5500960AE7 /* GLSLTriangleShaderv.glsl in Resources */,
+				8F2F66BA2498DABC00960AE7 /* Select.caf in Resources */,
+				8F2F66802498C84400960AE7 /* USLImgShaderf.fsh in Resources */,
+				8FC49BC7249B521F00EB71B5 /* skybox2.png in Resources */,
+				8F2F66AC2498DAAF00960AE7 /* point.fsh in Resources */,
+				8FC49BC5249B521F00EB71B5 /* skybox1.png in Resources */,
+				8F2F66AB2498DAAF00960AE7 /* point.vsh in Resources */,
+				8F9850262498BF9100224487 /* LaunchScreen.storyboard in Resources */,
+				8F2F66D62498DF0100960AE7 /* sphere.obj in Resources */,
+				8FAE2CED249E57AE001B361E /* ParticleSystem.storyboard in Resources */,
+				8FC49BD2249B539A00EB71B5 /* SkyboxShader.fsh in Resources */,
+				8F2F66B82498DABC00960AE7 /* CC.string in Resources */,
+				8F2F66D52498DF0100960AE7 /* Earth512x256.jpg in Resources */,
+				8F9850232498BF9100224487 /* Assets.xcassets in Resources */,
+				8F2F66812498C84400960AE7 /* USLImgShaderv.vsh in Resources */,
+				8F2F66A42498D7DF00960AE7 /* GlkitPyramid.storyboard in Resources */,
+				8F2F66972498CD7000960AE7 /* GLSLTriangleShaderf.glsl in Resources */,
+				8F2F66CC2498DDD200960AE7 /* EarthAndMoon.storyboard in Resources */,
+				8FC49BD0249B537200EB71B5 /* SkyboxShader.vsh in Resources */,
+				8F2F66A22498D40F00960AE7 /* GlkitPyramidView.jpg in Resources */,
+				8F2F66BE2498DACE00960AE7 /* Particle.png in Resources */,
+				8F2F66B92498DABC00960AE7 /* Erase.caf in Resources */,
+				8FAE2D87249E605D001B361E /* PointParticleShader.vsh in Resources */,
+				8F9850212498BF9000224487 /* Main.storyboard in Resources */,
+				8FC49BC0249B516B00EB71B5 /* SkyBox.storyboard in Resources */,
+				8F21D3C9249A1B6600E4FB2F /* CarBump.storyboard in Resources */,
+				8F2F66C62498DC2C00960AE7 /* DrawingBoard.storyboard in Resources */,
+				8FAE2D89249E606E001B361E /* ball.png in Resources */,
+				8FAE2D86249E605D001B361E /* PointParticleShader.fsh in Resources */,
+				8F2F66752498C63600960AE7 /* cTest.jpg in Resources */,
+				8FC49BC6249B521F00EB71B5 /* skybox3.png in Resources */,
+				8F2F66D72498DF0100960AE7 /* Moon256x128.png in Resources */,
+				8F2F66E1249904F200960AE7 /* Light.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F98500F2498BF9000224487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC49BD9249CC14600EB71B5 /* MakeSkyBoxImageVC.m in Sources */,
+				8F21D3D3249A1CCF00E4FB2F /* SceneCarModel.m in Sources */,
+				8F2F66CF2498DE1A00960AE7 /* EarthAndMoonVC.m in Sources */,
+				8FC49BBE249B510600EB71B5 /* SkyBoxVC.m in Sources */,
+				8F2F66DF249904DB00960AE7 /* LightVC.m in Sources */,
+				8F2F669C2498D33100960AE7 /* GlkitPyramidVC.m in Sources */,
+				8F2F66C42498DB9400960AE7 /* SoundEffect.m in Sources */,
+				8F2F66BB2498DABC00960AE7 /* fileUtil.m in Sources */,
+				8F2F66A72498D9BD00960AE7 /* DrawingBoardVC.m in Sources */,
+				8F21D3D9249A1D1500E4FB2F /* SceneCar.m in Sources */,
+				8F2F66A02498D34B00960AE7 /* GlkitPyramidView.m in Sources */,
+				8F2F66DB2498DF0D00960AE7 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				8F2F66932498CCD200960AE7 /* GLSLTriangleView.m in Sources */,
+				8F21D3C7249A1AFD00E4FB2F /* CarBumpVC.m in Sources */,
+				8F2F667D2498C7BC00960AE7 /* UserShaderLoadImageView.m in Sources */,
+				8FC49BCE249B52BB00EB71B5 /* SkyBoxEffect.m in Sources */,
+				8F98503B2498C35D00224487 /* LoadImageVC.m in Sources */,
+				8F21D3C32499A2B500E4FB2F /* sceneUtil.m in Sources */,
+				8F21D3D6249A1CF900E4FB2F /* SceneRinkModel.m in Sources */,
+				8FAE2D80249E6017001B361E /* PointParticleEffect.m in Sources */,
+				8F2F66BC2498DABC00960AE7 /* shaderUtil.c in Sources */,
+				8F2F668E2498CCB400960AE7 /* GLESUtils.m in Sources */,
+				8F98501E2498BF9000224487 /* ViewController.m in Sources */,
+				8FAE2D83249E603B001B361E /* VertexAttribArrayBuffer.m in Sources */,
+				8F9850182498BF9000224487 /* AppDelegate.m in Sources */,
+				8F9850292498BF9100224487 /* main.m in Sources */,
+				8F2F66792498C71A00960AE7 /* UserShaderLoadImageVC.m in Sources */,
+				8FC49BCB249B524B00EB71B5 /* starship.c in Sources */,
+				8F21D3CD249A1C8800E4FB2F /* SceneMesh.m in Sources */,
+				8F2F66C12498DB5300960AE7 /* PaintView.m in Sources */,
+				8F2F668F2498CCB400960AE7 /* GLESMath.c in Sources */,
+				8F21D3D0249A1CAE00E4FB2F /* SceneModel.m in Sources */,
+				8F2F66862498CB6E00960AE7 /* GLSLTriangleVC.m in Sources */,
+				8FAE2D7D249E5F83001B361E /* ParticleSystemVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F98501F2498BF9000224487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9850202498BF9000224487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F9850242498BF9100224487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9850252498BF9100224487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F98502A2498BF9100224487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F98502B2498BF9100224487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F98502D2498BF9100224487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnOpenGLES/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = LearnOpenGLES/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanGe.LearnOpenGLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F98502E2498BF9100224487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnOpenGLES/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = LearnOpenGLES/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanGe.LearnOpenGLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F98500E2498BF9000224487 /* Build configuration list for PBXProject "LearnOpenGLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98502A2498BF9100224487 /* Debug */,
+				8F98502B2498BF9100224487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F98502C2498BF9100224487 /* Build configuration list for PBXNativeTarget "LearnOpenGLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98502D2498BF9100224487 /* Debug */,
+				8F98502E2498BF9100224487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F98500B2498BF9000224487 /* Project object */;
+}
