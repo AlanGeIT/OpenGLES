@@ -209,11 +209,6 @@
 
     // 渲染
     [self.myContext presentRenderbuffer:GL_RENDERBUFFER];
-    
-    // 根据这个案例写一个思维导图!
-    // 1.回顾复习
-    // 2.写成文章
-    // 3.面试
 }
 
 // 5.设置frameBuffer
