@@ -271,7 +271,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		8F2F66832498CB3B00960AE7 /* 03-GLSL三角形 */ = {
+		8F2F66832498CB3B00960AE7 /* 03-GLSL金字塔立体图形渲染 */ = {
 			isa = PBXGroup;
 			children = (
 				8F2F66842498CB6E00960AE7 /* GLSLTriangleVC.h */,
@@ -279,7 +279,7 @@
 				8F2F66902498CCB700960AE7 /* View */,
 				8F2F66872498CCB400960AE7 /* Utils */,
 			);
-			path = "03-GLSL三角形";
+			path = "03-GLSL金字塔立体图形渲染";
 			sourceTree = "<group>";
 		};
 		8F2F66872498CCB400960AE7 /* Utils */ = {
@@ -495,7 +495,7 @@
 			children = (
 				8F9850382498C32E00224487 /* 01-使用OpenGLES加载图片 */,
 				8F2F66762498C6E500960AE7 /* 02-使用着色器加载图片 */,
-				8F2F66832498CB3B00960AE7 /* 03-GLSL三角形 */,
+				8F2F66832498CB3B00960AE7 /* 03-GLSL金字塔立体图形渲染 */,
 				8F2F66982498D04700960AE7 /* 04-GLKit金字塔 */,
 				8F2F66992498D30A00960AE7 /* 05-OpenGLES画板 */,
 				8F2F66C72498DD5E00960AE7 /* 06-地球月亮渲染 */,
